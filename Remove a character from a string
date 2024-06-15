@@ -1,0 +1,12 @@
+import java.util.Scanner;
+public class sample{
+    public static void main(String[] arg){
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter the string: ");
+        String str=sc.nextLine();
+        System.out.println("enter the character to be removed: ");
+        String c=sc.nextLine();
+        String s=str.replace(c,"");
+        System.out.println(s);
+    }
+}
